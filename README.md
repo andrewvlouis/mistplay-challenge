@@ -3,12 +3,20 @@
 
 ## model.py
 
-Gets data and trains it 
+A python file illustrating how I build the model, along with commentary
+
+
+## model.pkl
+
+The final trained model
+
 
 ## server.py
 
 Handle post requests from request.py
 
+
 ## request.py
 
 Request server for predictions
+
