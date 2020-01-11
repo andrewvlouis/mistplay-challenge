@@ -1,8 +1,6 @@
 from flask import Flask, request, jsonify
 import re
 import pickle
-from flask import Flask, jsonify
-from sklearn.externals import joblib
 import pandas as pd
 
 app = Flask(__name__)
