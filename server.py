@@ -1,12 +1,14 @@
 from flask import Flask, request, jsonify
 import re
 import pickle
-
 from flask import Flask, jsonify
 from sklearn.externals import joblib
 import pandas as pd
 
 app = Flask(__name__)
+
+model = pickle.load(open('model.pkl','rb'))
+
 @app.route('/predict', methods=['GET'])
 
 def predict():
@@ -32,7 +34,6 @@ def predict():
     
     
 if __name__ == '__main__':
-     clf = joblib.load('model.pkl')
      app.run(port=5000, debug = True)
 
     
