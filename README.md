@@ -3,7 +3,7 @@
 
 ## model.py
 
-A python file illustrating how I build the model, along with commentary
+A python file illustrating how I built the model, along with commentary
 
 
 ## model.pkl
