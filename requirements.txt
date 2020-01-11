@@ -1,4 +1,5 @@
 imblearn
+pickle
 sklearn
 requests
 flask
