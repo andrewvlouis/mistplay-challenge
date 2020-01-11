@@ -11,4 +11,4 @@ Handle post requests from request.py
 
 ## request.py
 
-Request server for preds
+Request server for predictions
